@@ -1,5 +1,6 @@
 'use client';
 
+import ReturnButton from '@/components/return-button';
 import { Button } from '@/components/ui/button';
 import { Card, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -43,6 +44,7 @@ const Page = () => {
           <Button>送信</Button>
         </form>
       </Card>
+      <ReturnButton />
     </div>
   );
 };
