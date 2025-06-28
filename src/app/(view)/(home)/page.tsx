@@ -38,6 +38,7 @@ export default function Home() {
         title='uncontrolled Component（useRef使用）'
       />
       <LinkButton href='controlled' title='controlled Component' />
+      <LinkButton href='rhf' title='RFH' />
     </div>
   );
 }
