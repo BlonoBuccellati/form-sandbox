@@ -31,7 +31,11 @@ export default function Home() {
       />
       <LinkButton
         href='use-action-state'
-      title='controlled Component（reactのformで使用するuseActionState)'
+        title='controlled Component（reactのformで使用するuseActionState)'
+      />
+      <LinkButton
+        href='uncontrolled-use-ref'
+        title='uncontrolled Component（useRef使用）'
       />
       <LinkButton href='controlled' title='controlled Component' />
     </div>
