@@ -1,3 +1,4 @@
+import ReturnButton from '@/components/return-button';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 const Description = () => {
@@ -25,6 +26,7 @@ function Page() {
   }
   return (
     <>
+      <ReturnButton />
       <Description />
       <form action={addToCart}>
         <Input name='productId' value={'データ'} readOnly />
