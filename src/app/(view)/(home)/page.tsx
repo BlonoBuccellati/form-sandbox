@@ -29,6 +29,10 @@ export default function Home() {
         href='uncontrolled-react-form-use-server'
         title='controlled Component（react19のformでイベント内でuse server)'
       />
+      <LinkButton
+        href='use-action-state'
+      title='controlled Component（reactのformで使用するuseActionState)'
+      />
       <LinkButton href='controlled' title='controlled Component' />
     </div>
   );
